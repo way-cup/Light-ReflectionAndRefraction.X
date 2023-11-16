@@ -1,3 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&display=swap');
+@import "compass/css3";
+
 body{
-    background-color: gainsboro;
+    background-color: #262626;
+    font-family: 'Inconsolata', monospace;
+    user-select: none;
+}
+
+.heading-title{
+    color: rgb(255, 255, 255);
+
+    padding-top: 2%;
+    font-size: 40px;
+    text-align: center;
+
+    user-select: none;
+    cursor: default;
+}
+
+.contents{
+    color: rgb(255, 255, 255);
+
+    font-size: 30px;
+    padding-left: 10px;
+    user-select: none;
+    cursor: default;
+}
+
+::-webkit-scrollbar{
+    width: 12px;
+  }
+  ::-webkit-scrollbar-thumb{
+    background: linear-gradient(#fc1a6500,#dfd7da);
+    border-radius: 6px;
+  }
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgba(31, 30, 30, 0.767);
+    color: rgb(255, 255, 255);
+    font-family: 'Inconsolata', monospace;
+}
+
+button{
+    background-color: rgba(31, 30, 30, 0.767);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+    transition: 0.3s;
+    color: #dfd7da;
+}
+button:hover{
+    background-color: #dfd7da;
+    cursor: pointer;
+    border: none;
+    color: #262626;
 }
